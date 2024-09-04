@@ -153,7 +153,7 @@ export default function Contact() {
                     </div>
                     <div className="ml-4">
                       <h3 className=" text-lg font-medium leading-6 text-gray-900 dark:text-white">
-                        IEEE WIE Membership Redirect
+                        IEEE EMBS Membership Redirect
                       </h3>
                     </div>
                   </li>
@@ -178,7 +178,7 @@ export default function Contact() {
                     </div>
                     <div className="ml-4">
                       <h3 className=" text-lg font-medium leading-6 text-gray-900 dark:text-white">
-                        Join IEEE WIE of SLIIT
+                        Join IEEE EMBS of SLIIT
                       </h3>
                     </div>
                   </li>

@@ -52,37 +52,38 @@ export default function About() {
           style={{ backgroundImage: `url(${bg})` }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-primary to-transparent"></div>
-          <div className="relative z-10">
+          <div className="relative z-10 my-20">
             <h3 className="text-3xl font-bold text-white text-center py-10">
               Game changer for you!!
             </h3>
-            <p className="text-center text-md text-white">
-              Joining EMBS can significantly enhance your personal and
-              professional development. In EMBS, you will have the opportunity
-              to contribute, collaborate, and drive positive changes in the
-              healthcare industry and society by
-            </p>
-            <div className="flex flex-col items-center mb-6 text-white">
-              <ul className="mt-5 pb-5 text-center">
-                <li>- Enhancing your Knowledge</li>
-                <li>- Providing Networking Opportunities</li>
-                <li>- Skill Development</li>
-                <li>- Providing opportunities for Leadership</li>
-                <li>- Contributing to technological Advancements</li>
-                <hr className="bg-white my-4 w-full" />
-              </ul>
-              <h3 className="pb-5 text-xl">
-                By being a part of us, you will:{" "}
-              </h3>
-              <ul className="pb-5 text-center">
-                <li>
-                  - Attend conferences and seminars at the national, regional,
-                  and international levels.
-                </li>
-                <li>- Gain access to valuable professional publications.</li>
-                <li>- Join technical departments and committees.</li>
-                <li>- Connect with a global network of professionals.</li>
-              </ul>
+            <div className="grid grid-cols-2 gap-32">
+              <div>
+                <p className=" text-md text-white" >
+                  Joining EMBS can significantly enhance your personal and
+                  professional development. In EMBS, you will have the opportunity
+                  to contribute, collaborate, and drive positive changes in the
+                  healthcare industry and society by
+                </p>
+                <ul className="mt-5 pb-5  text-white">
+                  <li>Enhancing your Knowledge</li>
+                  <li>Providing Networking Opportunities</li>
+                  <li>Skill Development</li>
+                  <li>Providing opportunities for Leadership</li>
+                  <li>Contributing to technological Advancements</li>
+                  {/* <hr className="bg-white my-4 w-full" /> */}
+                </ul>
+              </div>
+              <div className="flex flex-col  text-white">
+                <h3 className="pb-5 text-2xl">
+                  By being a part of us, you will:{" "}
+                </h3>
+                <ul className="pb-5">
+                  <li>Attend conferences and seminars at the national, regional, and international levels.</li>
+                  <li>Gain access to valuable professional publications.</li>
+                  <li>Join technical departments and committees.</li>
+                  <li>Connect with a global network of professionals.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

@@ -11,11 +11,11 @@ export default function Team() {
           Past executive board<span class="text-black">.</span>
         </h1>
         <p class=" text-gray-600 text-md text-center max-w mb-10">
-          Recognizing the Past Executive Committee Members of IEEE WIE Affinity
+          Recognizing the Past Executive Committee Members of IEEE EMBS Affinity
           Group 2022/23 of SLIIT, whose dedication and leadership paved the way
           for our organization's success.
         </p>
-        <div class="mx-auto grid  grid-cols-1 gap-6  md:grid-cols-2 lg:grid-cols-5 pb-24">
+        <div class="mx-auto grid  grid-cols-1 gap-6  md:grid-cols-2 lg:grid-cols-4 pb-24">
           <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
             <a href="#">
               <div class="relative flex items-end overflow-hidden rounded-xl">
@@ -84,7 +84,7 @@ export default function Team() {
             </a>
           </article>
 
-          <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
+          {/* <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
             <a href="#">
               <div class="relative flex items-end overflow-hidden rounded-xl">
                 <img src={Profile} alt="Hotel Photo" />
@@ -99,15 +99,15 @@ export default function Team() {
                 </p>
               </div>
             </a>
-          </article>
+          </article> */}
         </div>
 
-        <h1 class="mb-8 text-center font-sans text-4xl font-bold text-primary">
+        {/* <h1 class="mb-8 text-center font-sans text-4xl font-bold text-primary">
           Current executive board<span class="text-black">.</span>
         </h1>
         <p class=" text-gray-600 text-md text-center max-w mb-10">
           The Executive Board of IEEE WIE Affinity Group 2023/24 of SLIIT.
-        </p>
+        </p> */}
 
         {/* <div class="mx-auto px-20 grid max-w-screen-xl grid-cols-1 gap-6  md:grid-cols-2 lg:grid-cols-4">
           <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
