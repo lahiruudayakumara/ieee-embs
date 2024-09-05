@@ -45,9 +45,6 @@ export default function Header() {
               <a href="#">About Us</a>
             </li>
             <li class="text-gray-600 md:mr-12 hover:text-blue-600">
-              <a href="#">Join Us</a>
-            </li>
-            <li class="text-gray-600 md:mr-12 hover:text-blue-600">
               <button class="rounded-md border-2 border-blue-600 px-6 py-1 font-medium text-blue-600 transition-colors hover:bg-blue-600 hover:text-white">
                 Login
               </button>
